@@ -29,7 +29,6 @@ function makeConnection () {
 	fi  
 }
 
-
 roomNames=("olin208" "olin302" "olin304" "olin308" "olin310" "olin312" "cmc307")
 numOfComputers=(3 3 9 10 24 7 5)
 
