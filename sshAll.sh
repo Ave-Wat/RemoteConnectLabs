@@ -30,12 +30,12 @@ function makeConnection () {
 }
 
 
-#roomNames=("olin208" "olin302" "olin304" "olin308" "olin310" "olin312")
-#numOfComputers=(3 3 9 10 24 7)
+roomNames=("olin208" "olin302" "olin304" "olin308" "olin310" "olin312" "cmc307")
+numOfComputers=(3 3 9 10 24 7 5)
 
 #these are shortened lists for testing
-roomNames=("olin308")
-numOfComputers=(2)
+#roomNames=("olin308")
+#numOfComputers=(2)
 
 for j in ${!roomNames[@]};
 do
@@ -53,7 +53,7 @@ do
 done
 
 #non-regular names
-computerNames=("olin310-IS")
+computerNames=("olin310-IS" "olin210cs70692" "olin210cs70687" "olin210cs70693" "olin210cs70691" "olin210cs70686" "olin339-62200" "olin319-62183" "cmc324-62198" "olin327-62232" "olin321-62195")
 for name in ${computerNames[@]};
 do
 	echo $name
