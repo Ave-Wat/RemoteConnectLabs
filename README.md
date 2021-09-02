@@ -1,2 +1,2 @@
 # RemoteConnectLabs
-Script to remotely connect to all CS department labs.
+Script to remotely ssh into to all CS department labs.
