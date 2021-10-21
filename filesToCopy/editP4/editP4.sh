@@ -10,3 +10,5 @@ cp /Users/mathcsadmin/editP4/reboot-into-windows /usr/local/bin
 cp /Users/mathcsadmin/editP4/reboot-into-windows-REALLY /usr/local/bin
 cp /Users/mathcsadmin/editP4/shutdown-script /usr/local/bin
 cp /Users/mathcsadmin/editP4/shutdown-script-REALLY /usr/local/bin
+
+rm -rf /Users/mathcsadmin/editP4
