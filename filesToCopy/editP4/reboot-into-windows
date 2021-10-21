@@ -1,0 +1,6 @@
+#!/bin/bash
+mkdir /Volumes/OneShot
+diskToBoot=$(diskutil list internal physical | awk '{print tolower($0)}' | awk '/windows/{print$NF}' | awk -Fs '{print$1"s"$2"s1"}')
+mount -o nobrowse -t msdos /dev/$diskToBoot /Volumes/OneShot
+bless --mount /Volumes/OneShot --setBoot --file /Volumes/OneShot/EFI/Microsoft/Boot/bootmgfw.efi --shortform --nextonly
+shutdown -r now
