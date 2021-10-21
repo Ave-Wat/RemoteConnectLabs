@@ -13,3 +13,6 @@ Run in terminal: `bash sshAll.sh [optional arguments: -c [file/folder to scp], -
 `bash sshAll.sh -c ~/RemoteConnectLabs/filesToCopy/UpdateAutomatorFix -s /Users/mathcsadmin/UpdateAutomatorFix/replaceFetchUpdates.sh`
 
 This would take the UpdateAutomatorFix from the filesToCopy folder and scp it to the mathcsadmin home directory. Then, the script ssh's into the mathcsadmin home directory and runs the script replaceFetchUpdates.sh.
+
+### TODO
+Need to add a -w arg to only run ssh on Windows dual boot lab computers.
