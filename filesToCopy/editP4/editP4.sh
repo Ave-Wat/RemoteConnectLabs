@@ -11,4 +11,8 @@ cp /Users/mathcsadmin/editP4/reboot-into-windows-REALLY /usr/local/bin
 cp /Users/mathcsadmin/editP4/shutdown-script /usr/local/bin
 cp /Users/mathcsadmin/editP4/shutdown-script-REALLY /usr/local/bin
 
+echo "cslab ALL= NOPASSWD: /usr/local/bin/reboot-into-windows
+cslab ALL= NOPASSWD: /usr/local/bin/shutdown-script
+cslab ALL= NOPASSWD: /sbin/shutdown" >> /etc/sudoers
+
 rm -rf /Users/mathcsadmin/editP4
